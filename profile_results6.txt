@@ -1,0 +1,36 @@
+ #### Used Vectorized Numpy, 200x200 pixels, No Render
+ 
+ 
+         17394 function calls in 0.751 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.002    0.002    0.748    0.748 d:/ML Journey/LPBF/lpbf_v6.py:295(run)
+      402    0.003    0.000    0.746    0.002 d:/ML Journey/LPBF/lpbf_v6.py:281(no_render)
+      402    0.336    0.001    0.548    0.001 d:/ML Journey/LPBF/lpbf_v6.py:135(residue)
+     4021    0.003    0.000    0.237    0.000 <__array_function__ internals>:177(where)
+     4023    0.234    0.000    0.234    0.000 {built-in method numpy.core._multiarray_umath.implement_array_function}
+      403    0.158    0.000    0.196    0.000 d:/ML Journey/LPBF/lpbf_v6.py:129(calculate_values)
+      403    0.010    0.000    0.012    0.000 D:\Anacondd\envs\gamezz\lib\site-packages\numpy\core\numeric.py:1691(indices)
+        1    0.000    0.000    0.004    0.004 d:/ML Journey/LPBF/lpbf_v6.py:258(__init__)
+      401    0.000    0.000    0.001    0.000 d:/ML Journey/LPBF/lpbf_v6.py:100(hatching)
+      806    0.001    0.000    0.001    0.000 {built-in method numpy.arange}
+      480    0.001    0.000    0.001    0.000 d:/ML Journey/LPBF/lpbf_v6.py:94(is_within_shape)
+        1    0.000    0.000    0.001    0.001 d:/ML Journey/LPBF/lpbf_v6.py:121(__init__)
+     4021    0.001    0.000    0.001    0.000 D:\Anacondd\envs\gamezz\lib\site-packages\numpy\core\multiarray.py:345(where)
+      405    0.001    0.000    0.001    0.000 {built-in method numpy.empty}
+      806    0.001    0.000    0.001    0.000 {method 'reshape' of 'numpy.ndarray' objects}
+        4    0.001    0.000    0.001    0.000 {built-in method numpy.zeros}
+      401    0.000    0.000    0.000    0.000 d:/ML Journey/LPBF/lpbf_v6.py:84(laser_pass)
+        2    0.000    0.000    0.000    0.000 <__array_function__ internals>:177(copyto)
+        1    0.000    0.000    0.000    0.000 D:\Anacondd\envs\gamezz\lib\site-packages\numpy\core\numeric.py:290(full)
+      403    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 d:/ML Journey/LPBF/lpbf_v6.py:58(__init__)
+        1    0.000    0.000    0.000    0.000 d:/ML Journey/LPBF/lpbf_v6.py:53(create_square_mask)
+        1    0.000    0.000    0.000    0.000 D:\Anacondd\envs\gamezz\lib\site-packages\numpy\core\numeric.py:150(ones)
+        1    0.000    0.000    0.000    0.000 {built-in method numpy.asarray}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        2    0.000    0.000    0.000    0.000 D:\Anacondd\envs\gamezz\lib\site-packages\numpy\core\multiarray.py:1079(copyto)
+
+
